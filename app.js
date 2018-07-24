@@ -69,6 +69,8 @@ function nextPlayer() {
         hideDices();
 }
 
+document.querySelector('.btn-new').addEventListener('click', init);
+
 function hideDices() {
     document.getElementById('dice-1').style.display = 'none';
     document.getElementById('dice-2').style.display = 'none';
