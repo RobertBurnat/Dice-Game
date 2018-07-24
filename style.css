@@ -69,7 +69,7 @@ body {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
-    color: #EB4D4D;
+    color: #EB3D3D;
     margin-bottom: 130px;
 }
 
@@ -80,7 +80,7 @@ body {
     content: "\2022";
     font-size: 47px;
     position: absolute;
-    color: #EB4D4D;
+    color: #EB3D3D;
     top: -7px;
     right: 10px;
     animation-name: bounce_ball;
@@ -90,7 +90,7 @@ body {
 }
 
 .player-current-box {
-    background-color: #EB4D4D;
+    background-color: #EB3D3D;
     color: #fff;
     width: 40%;
     margin: 0 auto;
@@ -133,7 +133,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color: #EB3D3D;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -172,4 +172,4 @@ i {
 .score-input:focus {outline: none}
 
 .winner { background-color: #f7f7f7; }
-.winner .player-name { font-weight: 300; color: #EB4D4D; }
+.winner .player-name { font-weight: 300; color: #EB3D3D; }
