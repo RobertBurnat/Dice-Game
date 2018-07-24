@@ -12,9 +12,9 @@ document.querySelector('.btn-roll').addEventListener('click',() => {
     let diceDOM = document.getElementById('dice-1');
     let diceDOM2 = document.getElementById('dice-2');
     diceDOM.style.display = 'block';
-    diceDOM.src = '/img/dice-' + dice1 + '.png';
+    diceDOM.src = './img/dice-' + dice1 + '.png';
     diceDOM2.style.display = 'block';
-    diceDOM2.src = '/img/dice-' + dice2 + '.png';
+    diceDOM2.src = './img/dice-' + dice2 + '.png';
 
     //3. Update the round score IF the rolled number was NOT a 1.
         if(dice1 !== 1 && dice2 !== 1) {
